@@ -20,6 +20,27 @@ body {
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: linear-gradient(180deg, #2a5cff, #1f48d6);
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(31, 72, 214, 0.25);
+}
+
+.button:hover {
+  text-decoration: none;
+  filter: brightness(1.05);
+}
+
 .page {
   max-width: 980px;
   margin: 0 auto;
